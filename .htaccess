@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^sobre/?$ sobre.php [NC,L]
+  RewriteRule ^como-funciona/?$ como-funciona.php [NC,L]
+  RewriteRule ^o-que-voce-recebe/?$ o-que-voce-recebe.php [NC,L]
+  RewriteRule ^precos-e-prazos/?$ precos-e-prazos.php [NC,L]
+  RewriteRule ^contato/?$ contato.php [NC,L]
+  RewriteRule ^cadastro-usuario/?$ cadastro-usuario.php [NC,L]
+  RewriteRule ^area-do-cliente/?$ area-do-cliente.php [NC,L]
+</IfModule>
